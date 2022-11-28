@@ -13,6 +13,9 @@
             <p @click="navigate" v-text="link"></p>
           </router-link>
         </v-tab>
+        <v-tab>
+          <a href="https://arthurcarrenho.github.io/pi-2-pages/" target="_blank" class="text-decoration-none" color="white"> QUIZ</a>
+        </v-tab>
       </v-tabs>
       <v-spacer></v-spacer>
     </v-app-bar>

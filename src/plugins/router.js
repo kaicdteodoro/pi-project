@@ -5,6 +5,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 const routes = [
   { path: "/", name: "home", component: Home },
   { path: "/artigos", name: "artigos", component: Artigo },
+  { path: "/cursos", name: "cursos", component: {template: "<div>Futura tela de cursos</div>"} },
 ];
 
 export const routeNames = () => {
